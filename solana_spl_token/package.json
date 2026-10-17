@@ -1,0 +1,19 @@
+{
+  "name": "spl-token-cli",
+  "version": "1.0.0",
+  "description": "SPL Token2022 CLI",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.8",
+    "@solana/spl-token-metadata": "^0.1.6",
+    "@solana/web3.js": "^1.95.3",
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "typescript": "^5.5.4"
+  }
+}

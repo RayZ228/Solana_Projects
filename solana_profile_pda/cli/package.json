@@ -1,0 +1,22 @@
+{
+  "name": "profile-cli",
+  "version": "1.0.0",
+  "description": "CLI to interact with the Profile PDA Program",
+  "main": "dist/index.js",
+  "bin": {
+    "profile": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/web3.js": "^1.95.3",
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "typescript": "^5.5.4"
+  }
+}

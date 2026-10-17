@@ -1,0 +1,23 @@
+# Build artifacts
+target/
+dist/
+node_modules/
+.anchor/
+test-ledger/
+.xwin-cache/
+
+# Binaries
+*.exe
+*.pdb
+
+# Local wallets / keypairs / data
+.solvault/
+ledger.json
+*-keypair.json
+id.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
